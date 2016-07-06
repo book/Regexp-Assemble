@@ -3143,7 +3143,7 @@ of some of the issues arising with the use of a huge number of alterations. Than
 Slaven Rezic for the details of trie 'v' non-trie operations within Perl which influence
 regexp handling of alternations.
 
-<Regexp::Assemble> does not attempt to find common substrings. For
+C<Regexp::Assemble> does not attempt to find common substrings. For
 instance, it will not collapse C</cabababc/> down to C</c(?:ab){3}c/>.
 If there's a module out there that performs this sort of string
 analysis I'd like to know about it. But keep in mind that the
